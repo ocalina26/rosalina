@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warung Makanan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Warung Makanan</h1>
+    <p>Pilih menu favorit Anda!</p>
+  </header>
+
+  <main>
+    <div class="menu-gallery">
+      <div class="menu-item">
+        <img src="nasi goreng.jpeg" alt="Nasi Goreng">
+        <h3>Nasi Goreng</h3>
+        <p>Harga: Rp 20.000</p>
+        <button onclick="showInfo('Nasi Goreng: Nasi goreng lezat dengan bumbu spesial')">Detail</button>
+      </div>
+
+      <div class="menu-item">
+        <img src="ayam bakar.jpeg" alt="Ayam Bakar">
+        <h3>Ayam Bakar</h3>
+        <p>Harga: Rp 25.000</p>
+        <button onclick="showInfo('Ayam Bakar: Ayam bakar dengan bumbu meresap')">Detail</button>
+      </div>
+
+      <div class="menu-item">
+        <img src="nasi goreng.jpeg" alt="Mie Goreng">
+        <h3>Mie Goreng</h3>
+        <p>Harga: Rp 18.000</p>
+        <button onclick="showInfo('Mie Goreng: Mie goreng spesial dengan topping lengkap')">Detail</button>
+      </div>
+    </div>
+
+    <div id="menu-info" class="info-box"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
